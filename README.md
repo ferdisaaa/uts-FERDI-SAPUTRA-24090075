@@ -6,28 +6,25 @@ NIM : 24090075
 GitHub Repository	: uts-FERDI-SAPUTRA-24090075
 
 
-GitHub Pages :	
+GitHub Pages :	https://ferdisaaa.github.io/uts-FERDI-SAPUTRA-24090075/
+
 Proyek ini adalah implementasi front-end dari desain Figma menjadi sebuah aplikasi dashboard fungsional. Proyek ini menguji kemampuan dasar dalam manipulasi DOM, pengelolaan data dengan array dan object, serta navigasi antar halaman.
 
 
 WEB terdiri dari tiga halaman utama:
 
 1. Halaman Login (index.html)
-
 Tujuan: Simulasi validasi login tanpa backend.
 
-
 Spesifikasi: Form berisi input Email (sebagai username) dan Password (diisi dengan NIM).
-
 
 Validasi: Memastikan Email dan Password tidak boleh kosong.
 
 Akses: Hanya password yang cocok dengan NIM yang diizinkan login.
 
-
 Hasil: Jika berhasil, menampilkan pesan "Login berhasil" dan redirect ke dashboard.html.
 
-2. Halaman Dashboard (dashboard.html)
+3. Halaman Dashboard (dashboard.html)
 
 Tujuan: Menampilkan ringkasan data utama aplikasi.
 
