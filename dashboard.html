@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+<aside class="sidebar">
+    <nav class="sidebar-nav">
+        <ul>
+            <li><a href="dashboard.html" class="menu-item" id="dashboard-link">Dashboard</a></li>
+            <li><a href="product.html" class="menu-item" id="product-link">List Produk</a></li>
+            <li><a href="#" class="menu-item logout" id="logout-btn">Logout</a></li>
+        </ul>
+    </nav>
+</aside>
+
+<main class="dashboard-content">
+    <h1>Dashboard</h1>
+
+    <div class="stat-cards-container">
+        <div class="stat-card">
+            <div class="icon-box"><i class="fa-solid fa-box"></i></div>
+            <p class="label">Total Products</p>
+            <p class="value" id="totalProducts">0</p>
+        </div>
+        <div class="stat-card">
+            <div class="icon-box"><i class="fa-solid fa-shopping-cart"></i></div>
+            <p class="label">Total Sales</p>
+            <p class="value" id="totalSales">0</p>
+        </div>
+        <div class="stat-card">
+            <div class="icon-box"><i class="fa-solid fa-dollar-sign"></i></div>
+            <p class="label">Total Revenue</p>
+            <p class="value" id="totalRevenue">Rp 0</p>
+        </div>
+    </div>
+    
+    <button id="viewProductButton" class="action-btn">Lihat Data Produk</button>
+
+    <div class="content-box">
+        </div>
+</main>
+
+<script src="js/script.js"></script>
+</body>
+</html>
